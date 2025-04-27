@@ -19,8 +19,12 @@
       "targetField": "Title"
     },
     "Content": {
-      "type": "blocks"
-    },
+      "type": "dynamiczone",
+      "components": [
+      "content.text-block",  
+      "content.image"
+       ]
+     },
     "CoverImage": {
       "type": "media",
       "multiple": false,

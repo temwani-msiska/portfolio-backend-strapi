@@ -381,7 +381,9 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    Content: Schema.Attribute.Blocks;
+    Content: Schema.Attribute.DynamicZone<
+      ['content.text-block', 'content.image']
+    >;
     CoverImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;

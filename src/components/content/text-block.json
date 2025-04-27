@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_content_text_blocks",
+    "info": {
+      "displayName": "TextBlock",
+      "description": "Rich text paragraph"
+    },
+    "attributes": {
+      "body": {
+        "type": "richtext"
+      }
+    }
+  }
+  

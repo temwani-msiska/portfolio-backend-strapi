@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_content_images",
+    "info": {
+      "displayName": "ContentImage",
+      "description": "An inline image with optional caption"
+    },
+    "attributes": {
+      "image": {
+        "type": "media",
+        "multiple": false,
+        "required": true,
+        "allowedTypes": ["images"]
+      },
+      "caption": {
+        "type": "string"
+      }
+    }
+  }
+  
