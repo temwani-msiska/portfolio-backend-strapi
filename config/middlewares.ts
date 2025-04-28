@@ -7,7 +7,8 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://temwanimsiska.dev'], 
+      origin: ['http://localhost:3000', 
+      'https://temwanimsiska.dev'],
       methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       credentials: true,
